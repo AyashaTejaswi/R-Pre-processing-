@@ -1,0 +1,23 @@
+Collect the data from “https://www.imdb.com/”, perform the pre-processing and analyze the data. 
+Find which sentiment represents most of the emotions.
+
+Sentimental Analysis: Deadpool (2016)
+
+> url<- read_html( "https://www.imdb.com/title/tt1431045/?ref_-fn_al_tt_1") "
+> sentiment <- get_nrc_sentiment((review))
+> sentimentscores<-data. frame (colsums (sentiment [,]))
+> sentimentscores
+       colSums.sentiment..
+anger                 9
+anticipation          11
+disgust               7
+fear                  13
+joy                   9
+sadness               8 
+surprise              5
+trust                 9
+negative              19
+positive              26
+
+
+
